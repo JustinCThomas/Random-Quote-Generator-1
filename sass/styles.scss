@@ -11,15 +11,18 @@ body {
     height: 200px;
     max-width: 600px;
     margin: 20px auto;
+    border-radius: 20px;
     position: relative;
 
     #quote {
       background-color: rgb(220, 220, 220);
       border-radius: 4px;
-      // height: 80px;
       width: 90%;
-      margin: 10px auto;
       padding: 10px;
+      position: absolute;
+      height: 90px;
+      top: 18%;
+      left: 5%;
     }
 
     #author {
