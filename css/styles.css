@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  background-color: #6eb428; }
+  body #quote-container {
+    background-color: rgba(100, 100, 100, 0.8);
+    height: 200px;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative; }
+    body #quote-container #quote {
+      background-color: gainsboro;
+      border-radius: 4px;
+      width: 90%;
+      margin: 10px auto;
+      padding: 10px; }
+    body #quote-container #author {
+      position: absolute;
+      bottom: 10%;
+      right: 4%; }
+
+/*# sourceMappingURL=styles.css.map */
