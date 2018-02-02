@@ -17,7 +17,7 @@ quoteButton.addEventListener("click", () => {
     let author = data.author;
     let category = data.cat;
 
-    window.quote.innerText = decodeURIComponent(quote);
+    window.quote.innerText = `${decodeURIComponent(quote)}`;
     window.author.innerText = `- ${author}`;
   }
 

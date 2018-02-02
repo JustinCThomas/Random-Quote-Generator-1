@@ -23,6 +23,7 @@ body {
       height: 105px;
       top: 18%;
       left: 5%;
+      font-size: 17px;
     }
 
     #quote-button {
@@ -39,6 +40,20 @@ body {
       position: absolute;
       bottom: 10%;
       right: 4%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    #quote-container {
+      height: 260px;
+
+      #quote {
+        height: 172px;
+        top: 9%;
+        font-size: 18px;
+      }
     }
   }
 }
