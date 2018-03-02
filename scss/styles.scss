@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(110, 180, 40);
+
+  #quote-container {
+    background-color: rgba(100, 100, 100, 0.8);
+    height: 200px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+    position: relative;
+
+    #quote {
+      background-color: rgb(220, 220, 220);
+      border-radius: 20px;
+      width: 90%;
+      padding: 10px;
+      position: absolute;
+      height: 105px;
+      top: 18%;
+      left: 5%;
+      font-size: 17px;
+    }
+
+    #quote-button {
+      position: absolute;
+      bottom: 6%;
+      left: 5%;
+      height: 30px;
+      border-radius: 5px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    #author {
+      position: absolute;
+      bottom: 10%;
+      right: 4%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    #quote-container {
+      height: 260px;
+
+      #quote {
+        height: 172px;
+        top: 9%;
+        font-size: 18px;
+      }
+    }
+  }
+}
